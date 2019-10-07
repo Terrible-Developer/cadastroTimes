@@ -22,7 +22,7 @@
       </div>
     </div>
     <div class="timesesquerda" id="timeazul">
-      <span class="title">Blue Team</span> <br>
+      <span class="title">Time Azul</span> <br>
       <?php 
       include 'lib/db.php';
       getTime(1);
@@ -30,19 +30,19 @@
       
     </div>
     <div class="timesesquerda" id="timevermelho">
-      <span class="title">Red Team</span> <br>
+      <span class="title">Time Vermelho</span> <br>
       <?php
       getTime(2);
       ?>
     </div>
     <div class="timesdireita" id="timepreto">
-      <span class="title">Black Team</span> <br>
+      <span class="title">Time Preto</span> <br>
       <?php
       getTime(3);
       ?>
     </div>
     <div class="timesdireita" id="timeamarelo">
-      <span class="title">Yellow Team</span> <br>
+      <span class="title">Time Amarelo</span> <br>
       <?php
       getTime(4);
       ?>
